@@ -1,0 +1,144 @@
+
+PART - A
+(10×2=20 Marks)
+1. What are the four main characteristics that differentiate the database approach from the file-processing approach?
+2. Express in relational algebra, the division operation(/) using the project, cartesian product and minus operations. Give a simple example.
+3. 'Boyce-Codd normal form is found to be stricter than third normal form'. Justify the statement.
+4. What is the significance of "participation role name" in the description of relationship types ?
+5. List the responsibilities of a DBMS has whenever a transaction is submitted to the system for execution?
+6. Brief any two violations that may occur if a transaction executes a lower isolation level than Serializable.
+7. How do you represent leaf node of a B+ tree of order p?
+8. Which cost components contribute to query execution ?
+9. List information types of documents necessary for relevance ranking of documents in IR.
+10. What one could understand from allocation schema?
+
+
+PART-B(5×13-65 Marks)
+11. a) i) Consider the following schema:
+Suppliers (sid: integer, sname: string, address: string)
+Parts (pid: integer, pname: string, color: string)
+Catalog (sid: integer, pid: integer, cost: real)
+The key fields are underlined and the domain of each field is listed after the field name. Therefore sid is the key for Suppliers, pid is the key for Parts and sid and pid together form the key for Catalog. The Catalog relation lists the prices charged for parts by suppliers.
+(6)
+Write the following queries in relational algebra :
+1) Find the sids of suppliers who supply some red or green part.
+2) Find the sids of suppliers who supply some red part or are at 221 Packer Street.
+3) Find the pids of parts supplied by atleast two different suppliers.
+ii) Sketch the typical component modules of DBMS. Indicate and explain the interactions between those modules of the system.
+(7)
+(OR)
+b) i) Consider the schema given in question no. 11.a) i) and write the following queries in SQL.
+(8)
+1) Find the names of suppliers who supply some red part.
+2) Find the sids of suppliers who supply some red part and some green part.
+3) Find the sids of suppliers who supply every red part.
+4) Find the pids of parts supplied by atleast two different suppliers.
+ii) Explain the three schema architecture with a neat diagram.
+(5)
+12. a) i) Discuss in detail the steps involved in the ER-to-Relational mapping in the process of relational database design.
+(7)
+ii) Exemplify the multi-value dependency and the fourth normal form-4NF. (6)
+(OR)
+b) i) Explain with suitable example, the constraints of specialization and generalization in ER data modeling.
+(7)
+ii) Exemplify the join dependency and the fifth normal form-5NF.
+(6)
+x) Departments have a professor (known as the chairman) who runs the department.
+xi) Professors work in one or more departments, and for each department that they work in, a time percentage is associated with their job.
+xii) Graduate students have one major department in which they are working on their degree.
+xiii) Each graduate student has another, more senior graduate student (known as a student advisor) who advises him or her on what courses to take.
+Design and draw an ER diagram that captures the information about the university.
+Use only the basic ER model here; that is, entities, relationships and attributes. Be sure to indicate any key and participation constraints.
+(OR)
+(5+10)
+b) i) For the following relation schema R and set of functional dependencies F: R(A, B, C, D, E), F = (ACE, BD, E A). List all candidate keys. (9)
+ii) Consider the Table-16 and answer to queries given below.
+Table-16 User_personal.
+(6)
+State
+Zip
+Bilaspur
+Chatisgarh
+458991
+Userid
+U_Email
+Fname
+Lname
+City
+Kacch
+Gujrat
+832212
+MA12
+mani@ymail.com
+Manish
+Jain
+P045
+pujag@gmail.com
+Pooja
+Magg
+LA33
+lavle98@jj.com
+Lavleen
+Dhalla
+Raipur
+Chatisgarh
+853578
+CH99
+cheki9j@ih.com
+Chimal
+Bedi
+Trichy
+Tamil Nadu
+632011
+DA74
+danu58@g.com
+Dany
+James
+Trichy
+Tamil Nadu
+645018
+1) Is this table in First Normal Form-1NF? Justify and normalize to 1NF if needed.
+2) Is this table in Second Normal Form-2NF? Justify and normalize to 2NF if needed.
+3) Is User personal in Third Normal Form-3NF? Justify and normalize to 3NF if needed.
+13. a) i) Discuss elaborately the two-phase locking protocol that ensures serializability.
+(9)
+ii) Brief the states of a transaction with a neat diagram.
+(4)
+(OR)
+b) i) Narrate the actions that are considered for deadlock detection and the recovery from deadlock.
+(9)
+ii) Discuss the properties of a transaction that ensure integrity of data in the database system.
+(4)
+14. a) i) Explain the various levels of RAID systems.
+(10)
+ii) Why data dictionary storage is important?
+(3)
+(OR)
+b) i) With simple algorithms explain the computing of Nested-loop join and Block Nested-loop join.
+(10)
+ii) Sketch and concise the basic steps in Query Processing.
+(3)
+15. a) i) Illustrate the usage of OQL, the DMG's query language.
+(9)
+ii) Brief on the methods to store XML documents.
+(4)
+(OR)
+(9)
+b) i) Illustrate the approaches to store relations in distributed database.
+(4)
+ii) How effectiveness of retrieval is measured? Discuss.
+
+(1x15=15 Marks)
+PART-C
+16. a) Consider the following information about a university database:
+i) Professors have an SSN, a name, an age, a rank and a research specialty.
+ii) Projects have a project number, a sponsor name (e.g., NSF), a starting date, an ending date and a budget.
+iii) Graduate students have an SSN, a name, an age and a degree program (e.g., M.S. or Ph.D.).
+iv) Each project is managed by one professor (known as the project's principal investigator).
+v) Each project is worked on by one or more professors (known as the project's co-investigators).
+vi) Professors can manage and/or work on multiple projects.
+vii) Each project is worked on by one or more graduate students (known as the project's research assistants).
+viii) When graduate students work on a project, a professor must supervise their
+work on the project. Graduate students can work on multiple projects, in
+which case they will have a (potentially different) supervisor for each one. ix) Departments have a department number, a department name and a main
+office.

@@ -1,0 +1,58 @@
+PART-A
+(10×2=20 Marks)
+1. State the three levels of data abstraction.
+2. What are the various types of keys in the database?
+3. Define functional dependency.
+4. What is E-R diagram?
+5. List the ACID properties and its usefulness.
+6. What benefit does strict two-phase locking provide? What are the disadvantages of it?
+7. State the storage device hierarchy.
+8. What are the factors needed to evaluate the technique of ordered indexing and hashing?
+9. Give the DTD for an XML representation of the following nested-relational schema. Emp (ename, Children Set setof (Children), Skills Set setof(Skills)) Children (name, Birthday) Birthday (day, month, year) Skills (type, Exams Set setof (Exams)) Exams (year, city)
+10. What is the difference between a false positive and false drop?
+
+PART-B
+(5×13=65 Marks)
+11. a) State and explain the architecture of DBMS. Discuss about the people who deals with database.
+(OR)
+b) What are the several parts of SQL query language? What are the basic built in types used during SQL create statement? State and given example for the basic structure of SQL queries.
+12. a) Explain the following terms briefly: attribute, domain, entity relationship, entity set, relationship set, one-to-many relationship, many-to-many relationship, participation constraint, overlap constraint, covering constraint, weak entity set, aggregation and role indicator.
+(OR)
+b) Consider the following relations:
+Sailors (sid:integer, sname:string, rating:integer, age:real) Boats (bid:integer, bname:string, color:string) Reserves(sid:integer, bid:integer, day date)
+Write the SQL statement for the following queries:
+i) Find all sailors with a rating above 7.
+(3)
+ii) Find the sids of sailors who have reserved a red boat.
+(3)
+iii) Find the colors of boats reserved by lubber.
+(4)
+iv) Find the names of sailors who have reserved at least one boat.
+(3)
+13.
+a) State and explain the transaction isolation level.
+(OR)
+b) What are the two approaches of deadlock prevention? Explain in detail with suitable example.
+14.
+a) Describe the procedure for index update for single level indices with example.
+(OR)
+b) Explain dynamic hashing with example.
+15. a) What are the reasons for building distributed database? Discuss the relative advantages of centralized and distributed databases. Explain the difference between fragmentation, replication and location transparency.
+(OR)
+b) State and explain the persistent programming languages.
+
+PART-C (1×15=15 Marks)
+16. a) Construct a B+ tree for the following set of key values: (2, 3, 5, 7, 11, 17, 19, 23, 29, 31)
+Assume that the tree is initially empty and values are added in ascending order. Construct B+ trees for the cases where the number of pointers that will fit in one node is as follows:
+a) Four
+b) Six
+c) Eight.
+(OR)
+b) i) Write an algorithm to find closure of functional dependents. (5)
+ii) Compute the closure of the following set F of functional dependencies for relation schema R = (A, B, C, D, E)
+(10)
+A→BC
+CDE
+BD
+E-A
+List the candidate keys for R..

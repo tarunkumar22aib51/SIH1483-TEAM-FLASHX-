@@ -1,0 +1,37 @@
+PART A-(10 x = 20 marks)
+1. What is a data model? List the types of data model used.
+2. List any eight applications of DBMS.
+3. Give the properties of decomposition.
+4. Define the terms Entity set and Relationship set.
+5. What are the states of transaction?
+6. What is meant by log-based recovery?
+7. Define dense index.
+8. Mention all the operations of files.
+9. Mention two features of Multimedia databases.
+10. Compare sequential access devices versus random access devices with an example.
+
+PART B-(5 x 13 = 65 marks)
+11.
+(a) Explain the three different groups of data models with suitable examples.
+Or
+(b) Describe about the static and dynamic SQL in detail.
+12. (a) What is normalization? Explain in detail about all Normal forms.
+Or
+(b) Briefly discuss about the functional dependency concepts.
+13
+. (a) Discuss in detail about the testing of serializąbility.
+Or
+(b) Explain deferred and immediate modification versions of the log based recovery scheme.
+14.
+(a) What is RAID? Briefly discuss about RAID.
+Or
+(b) Describe the structure of B+ tree and give the algorithm for search in the B+ tree with example.
+15. (a) Discuss in detail about the distributed databases.
+Or
+(b) Explain in detail about the Deductive DB and Spatial DB.
+
+PART C-(1 x 15 15 marks)
+(Application/Design/ Analysis / Evaluation/Creativity/Case Study questions)
+16. (a) Discuss in detail about the ACID properties of a transaction.
+Or
+(b) What is concurrency control? How it is implemented in DBMS? Briefly elaborate with suitable diagrams and examples.

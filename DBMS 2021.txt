@@ -1,0 +1,69 @@
+PART A-(10x220 marks)
+1. Name the three levels of data abstraction in a database system.
+2. What is Data manipulation language?
+3. Draw the symbols used in an entity relationship diagram for representing an entity set, weak entity set, attribute and multivalued attribute.
+4. For a binary relationship set R between entity sets A and B, list the mapping cardinalities.
+5. What are serializable schedules?
+6 Name the four conditions for deadlock.
+7. What is Metadata?
+8. Name the two basic kinds of indices.
+9. Outline the motivation of Replication in a distributed database environment.
+10. What are Ontologies?
+
+PART B-(5x1365 marks)
+11. (a) Consider the following relations:
+EMPLOYEE (ENO, NAME, DATE_BORN, GENDER, DATE_JOINED, DESIGNATION, BASIC PAY, DEPARTMENT NUMBER)
+DEPARTMENT (DEPARTMENT NUMBER, NAME)
+Write SQL queries to perform the following:
+(1) List the details of employees belonging to department number 'CSE (2)
+(ii) List the employee number, employee name, department number and department name of all employees. (4)
+(iii) List the department number and number of employees in each department. (3)
+(iv) List the details of employees who earn less than the average basic pay of all employees. (4)
+Or
+(b) Outline equi-join, left outer join, right outer join and full outer join operations in relational algebra with an example. (13)
+12. (a) (i) A university registrar's office maintains data about the following entities:
+(1) courses, including number, title, credits, syllabus, and prerequisites;
+(2) course offerings, including course number, year, semester. section number, instructor, timings, and classroom;
+(3) students, including student-id, name, and program; and
+(4) instructors, including identification number, name. department, and title. Further, the enrollment of students in courses and grades awarded to students in each course they are enrolled for must be appropriately modeled. Model an entity relationship diagram for the registrar's office. (9)
+(ii) Model an E-R diagram for a car-insurance company whose customers own one or more cars each. Each car has associated with it zero to any number of recorded accidents. State any assumptions you make. (4)
+Or
+(b) (i) State the Armstrong axioms.
+(6)
+(ii) Define BCNF and justify a relation R with two attributes is in BCNF. (6)
+13.
+(a) (i) What is a transaction? Draw the state diagram corresponding to a transaction and present an outline of the same. (8)
+(ii) Outline the properties that must be satisfied by a transaction. (5)
+Or
+(b) (i) Outline the isolation levels specified by the SQL standard with an example. (8)
+(ii) Outline the SQL statements used for transaction control.
+(5)
+14. (a)
+(i) Outline the factors used to evaluate indexing and hashing techniques. (5)
+(ii) What is an index record? Outline dense index and sparse index with an example. (8)
+Or
+(b) What is query processing? Outline the steps involved in processing a query with a diagram.
+(13)
+15. (a)
+(1) Outline the two basic types of fragmentation in a distributed database environment with an example. (8)
+(ii) Compare the features of Object based and Object-relational databases. (5)
+Or
+(b) Present an outline of Document Type Declaration, XML schema, path expressions and XQuery language.
+(13)
+
+PART C-(1x1515 marks)
+16.
+(a) Present a relational database schema for a "Library Management System". State the functional requirements you are considering. (15)
+Or
+(b) (i) Consider the following relation: R(U, V, W, X, Y, Z)
+All the attributes of relation R are atomic. The primary key of relation R is combination of U and V. The following functional dependencies hold:
+UV W
+U-X
+VY
+Y-Z
+Is relation R normalized? If yes, justify the relation is normalized. If no, state reasons and normalize the same. (10)
+(ii) Consider the following relation:
+STUDENT (ROLLNUMBER, NAME, DOB, GENDER, BRANCH_CODE, BRANCH_NAME)
+The primary key of the relation is ROLLNUMBER. The following functional dependencies hold:
+ROLLNUMBER NAME, DOB, GENDER, BRANCH_CODE
+BRANCH CODE BRANCH_NAME Is relation STUDENT normalized? If yes, justify the relation is normalized. If no, state reasons and normalize the same. (5)
